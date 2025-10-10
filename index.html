@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>json</title>
+  </head>
+  <body class="h-screen">
+    <main class="w-full">
+      <header
+        class="flex justify-between items-center p-4 pt-20 bg-black *:text-[#e5e7eb] *:cursor-pointer *:text-[30px] gap-[10px] w-100%"
+      >
+        <img class="w-[100px] h-[40px]" src="./src/img/logo.png" alt="" />
+        <div class="flex space-x-8">
+          <span>Residencies</span>
+          <span>Our Value</span>
+          <span>Contact Us</span>
+          <span>Get Started</span>
+          <button
+            class="w-[150px] h-[50px] rounded-md bg-[#2949c6] cursor-pointer hover:scale-110"
+          >
+            Contact
+          </button>
+        </div>
+      </header>
+      <section class="bg-black relative p-25 flex flex-col gap-8">
+        <h2 class="text-[80px] text-white font-bold">
+          Discover<br />
+          Most Suitable<br />
+          Property
+        </h2>
+        <div
+          class="size-14 bg-[#ff922d] rounded-full top-23 left-110 absolute"
+        ></div>
+        <p class="text-[#e5e7eb] font-thin text-[25px]">
+          Find a variety of properties that suit you very<br />
+          easilty Forget all difficulties in finding a residence for you
+        </p>
+        <div class="relative">
+          <svg
+            class="absolute top-6 left-5"
+            width="40px"
+            height="40px"
+            viewBox="0 0 0.9 0.9"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>location_line</title>
+            <g
+              id="页面-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g id="location_line">
+                <path
+                  d="M0.9 0v0.9H0V0zM0.472 0.872l0 0 -0.003 0.001 -0.001 0 -0.001 0 -0.003 -0.001q-0.001 0 -0.001 0l0 0 -0.001 0.016 0 0.001 0 0 0.004 0.003 0.001 0 0 0 0.004 -0.003 0 -0.001 0 -0.001 -0.001 -0.016q0 -0.001 -0.001 -0.001m0.01 -0.004 0 0 -0.007 0.003 0 0 0 0 0.001 0.016 0 0 0 0 0.008 0.003q0.001 0 0.001 0l0 -0.001 -0.001 -0.023q0 -0.001 -0.001 -0.001m-0.027 0a0.001 0.001 0 0 0 -0.001 0l0 0.001 -0.001 0.023q0 0.001 0.001 0.001l0.001 0 0.008 -0.003 0 0 0 0 0.001 -0.016 0 0 0 0z"
+                  id="MingCute"
+                  fill-rule="nonzero"
+                />
+                <path
+                  d="M0.45 0.075a0.337 0.337 0 0 1 0.337 0.337c0 0.115 -0.063 0.21 -0.129 0.277a0.765 0.765 0 0 1 -0.108 0.091l-0.016 0.011 -0.007 0.005 -0.014 0.009 -0.013 0.008 -0.016 0.009a0.07 0.07 0 0 1 -0.07 0l-0.016 -0.009 -0.019 -0.012 -0.007 -0.005 -0.015 -0.01a0.773 0.773 0 0 1 -0.116 -0.096C0.175 0.622 0.112 0.528 0.112 0.412a0.337 0.337 0 0 1 0.337 -0.337m0 0.075a0.263 0.263 0 0 0 -0.263 0.263c0 0.087 0.048 0.164 0.108 0.225a0.675 0.675 0 0 0 0.083 0.072l0.017 0.012q0.008 0.006 0.016 0.011l0.015 0.009 0.013 0.008 0.011 0.006 0.017 -0.01 0.014 -0.009q0.011 -0.007 0.024 -0.016l0.017 -0.012a0.675 0.675 0 0 0 0.083 -0.072C0.665 0.576 0.713 0.5 0.713 0.412a0.263 0.263 0 0 0 -0.263 -0.263m0 0.112a0.15 0.15 0 1 1 0 0.3 0.15 0.15 0 0 1 0 -0.3m0 0.075a0.075 0.075 0 1 0 0 0.15 0.075 0.075 0 0 0 0 -0.15"
+                  id="形状"
+                  fill="#09244B"
+                />
+              </g>
+            </g>
+          </svg>
+          <input
+            class="bg-white border-1 rounded-md w-[750px] h-[100px] pl-20 text-[25px]"
+            type="search"
+          />
+          <button
+            class="w-[150px] h-[80px] rounded-md bg-[#2949c6] text-[30px] text-white absolute left-147 top-2 cursor-pointer hover:scale-105"
+          >
+            search
+          </button>
+        </div>
+        <div class="flex flex-row gap-8">
+          <div class="text-white flex flex-col gap-4 pt-20">
+            <div class="flex flex-row gap-8">
+              <span class="text-[50px]">9000</span>
+              <svg
+                fill="#ff922d"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="30px"
+                height="30px"
+                viewBox="0 0 3.75 3.75"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+              >
+                <path
+                  d="M3.166 1.49h-0.906V0.584a0.068 0.068 0 0 0 -0.068 -0.068h-0.635a0.068 0.068 0 0 0 -0.068 0.068v0.906H0.584a0.07 0.07 0 0 0 -0.068 0.068v0.635a0.068 0.068 0 0 0 0.068 0.068h0.906v0.906a0.068 0.068 0 0 0 0.068 0.068h0.635a0.068 0.068 0 0 0 0.068 -0.068v-0.906h0.906a0.068 0.068 0 0 0 0.068 -0.068v-0.635a0.068 0.068 0 0 0 -0.068 -0.068"
+                />
+              </svg>
+            </div>
+
+            <span class="text-[20px] text-gray-500">Premium Product</span>
+          </div>
+
+          <div class="text-white flex flex-col gap-4 pt-20">
+            <div class="flex flex-row gap-8">
+              <span class="text-[50px]">2000</span>
+              <svg
+                fill="#ff922d"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="30px"
+                height="30px"
+                viewBox="0 0 3.75 3.75"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+              >
+                <path
+                  d="M3.166 1.49h-0.906V0.584a0.068 0.068 0 0 0 -0.068 -0.068h-0.635a0.068 0.068 0 0 0 -0.068 0.068v0.906H0.584a0.07 0.07 0 0 0 -0.068 0.068v0.635a0.068 0.068 0 0 0 0.068 0.068h0.906v0.906a0.068 0.068 0 0 0 0.068 0.068h0.635a0.068 0.068 0 0 0 0.068 -0.068v-0.906h0.906a0.068 0.068 0 0 0 0.068 -0.068v-0.635a0.068 0.068 0 0 0 -0.068 -0.068"
+                />
+              </svg>
+            </div>
+
+            <span class="text-[20px] text-gray-500">Happy Customer</span>
+          </div>
+
+          <div class="text-white flex flex-col gap-4 pt-20">
+            <div class="flex flex-row gap-8">
+              <span class="text-[50px]">28</span>
+              <svg
+                fill="#ff922d"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="30px"
+                height="30px"
+                viewBox="0 0 3.75 3.75"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+              >
+                <path
+                  d="M3.166 1.49h-0.906V0.584a0.068 0.068 0 0 0 -0.068 -0.068h-0.635a0.068 0.068 0 0 0 -0.068 0.068v0.906H0.584a0.07 0.07 0 0 0 -0.068 0.068v0.635a0.068 0.068 0 0 0 0.068 0.068h0.906v0.906a0.068 0.068 0 0 0 0.068 0.068h0.635a0.068 0.068 0 0 0 0.068 -0.068v-0.906h0.906a0.068 0.068 0 0 0 0.068 -0.068v-0.635a0.068 0.068 0 0 0 -0.068 -0.068"
+                />
+              </svg>
+            </div>
+
+            <span class="text-[20px] text-gray-500">Awards Winning</span>
+          </div>
+        </div>
+
+        <img
+          class="absolute top-22 left-300 w-[700px] h-[900px] rounded-t-full border-10 border-gray-500"
+          src="./src/img/hero-image.png"
+          alt=""
+        />
+      </section>
+
+      <section
+        class="flex flex-row gap-10 h-[200px] justify-center space-x-15 pt-15"
+      >
+        <img src="./src/img/avali.png" alt="" />
+        <img src="./src/img/dovomi.png" alt="" />
+        <img src="./src/img/sevomi.png" alt="" />
+        <img src="./src/img/4.png" alt="" />
+      </section>
+      <div class="flex flex-row justify-between p-10 pt-20">
+        <div class="flex flex-col">
+          <h2 class="text-[40px] text-[#ff922d] font-bold">Best Choices</h2>
+          <h2 class="text-[#1f3e72] text-[60px] font-bold">
+            Popular Residencies
+          </h2>
+        </div>
+        <div>
+          <button
+            class="cursor-pointer w-[50px] h-[50px] bg-white shadow-xl text-[25px] font-bold"
+          >
+            /
+          </button>
+          <button
+            class="cursor-pointer w-[50px] h-[50px] bg-white shadow-xl text-[25px] font-bold"
+          >
+            >
+          </button>
+        </div>
+      </div>
+      <section class="px-8 ml-12 pt-5 gap-10 flex flex-row w-[500px]">
+        <div
+          class="flex flex-col gap-6 pt-15 p-10 hover:bg-blue-100 hover:scale-105 transition-all duration-300"
+        >
+          <img class="w-[350px] h-[300px]" src="./src/img/state1.png" alt="" />
+          <div>
+            <span class="text-[#ff922d] text-[40px] font-bold">$</span>
+            <span class="text-gray-500 text-[40px] font-bold">47,04</span>
+          </div>
+          <h2 class="text-[#1f3e72] text-[40px] font-bold">
+            Aliva Pirva Jarden
+          </h2>
+          <span class="text-gray-500 text-[20px]">
+            Jacarta garden city state,paulo gadung ,jakarta timur ,Diki jakarta
+          </span>
+        </div>
+      </section>
+      <section class="relative p-6 justify-center items-center h-screen">
+        <img
+          class="absolute w-[800px] h-[1100px] rounded-t-full border-10 border-gray-500 left-15 top-4"
+          src="./src/img/value.png"
+          alt=""
+        />
+        <div class="absolute w-1/2 left-1/2 space-y-10">
+          <span class="text-[#ff922d] text-[40px] font-bold">Our Value</span>
+          <h2 class="text-[#1f3e72] text-[60px] font-extrabold">
+            Value We Give to You
+          </h2>
+          <p class="text-gray-500 text-[25px]">
+            We always ready to help by providijng the best services for you .<br />
+            We beleive a good blace to live can make your life better
+          </p>
+          <div
+            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+          >
+            <div class="flex justify-between">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="0 0 0.96 0.96"
+                enable-background="new 0 0 32 32"
+                version="1.1"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g id="Security02" />
+                <g id="Security03" />
+                <g id="Security04" />
+                <g id="Security05" />
+                <g id="Security06" />
+                <g id="Security07" />
+                <g id="Security08" />
+                <g id="Security09" />
+                <g id="Security10" />
+                <g id="Security11" />
+                <g id="Security12" />
+                <g id="Security13" />
+                <g id="Security14" />
+                <g id="Security15" />
+                <g id="Security16" />
+                <g id="Security17" />
+                <g id="Security18" />
+                <g id="Security19" />
+                <g id="Security20">
+                  <g>
+                    <path
+                      d="M0.93 0.24c0 0.007 -0.005 0.69 -0.45 0.69S0.03 0.247 0.03 0.24c0 -0.012 0.007 -0.023 0.018 -0.028l0.42 -0.18c0.007 -0.003 0.016 -0.003 0.023 0l0.42 0.18c0.011 0.005 0.018 0.016 0.018 0.028"
+                      fill="#2197F3"
+                    />
+                  </g>
+                  <g>
+                    <path
+                      d="M0.429 0.66h0a0.03 0.03 0 0 1 -0.024 -0.012L0.276 0.473a0.03 0.03 0 0 1 0.048 -0.036l0.105 0.143 0.207 -0.268a0.03 0.03 0 1 1 0.048 0.037l-0.231 0.3a0.03 0.03 0 0 1 -0.024 0.012"
+                      fill="#FFFFFF"
+                    />
+                  </g>
+                </g>
+                <g id="Security21" />
+              </svg>
+              <h2 class="text-[#1f3e72] text-[35px] font-bold">
+                Best interest rates on the market
+              </h2>
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="-0.14 0 2.24 2.24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.802 0.541A0.158 0.158 0 0 1 1.96 0.7v1.085a0.158 0.158 0 0 1 -0.158 0.158h-1.645A0.158 0.158 0 0 1 0 1.785V0.455a0.158 0.158 0 0 1 0.158 -0.157H0.56c0.134 0 0.148 0.04 0.236 0.156 0.072 0.096 0.249 0.087 0.364 0.087Z"
+                  fill="#003462"
+                />
+                <path
+                  d="M1.802 0.634H0.323a0.158 0.158 0 0 0 -0.158 0.158v0.099L0.322 0.665h1.482L1.96 0.892v-0.1a0.158 0.158 0 0 0 -0.158 -0.158"
+                  fill="#87c8f2"
+                />
+                <path
+                  d="M0.16 1.942h1.642A0.158 0.158 0 0 0 1.96 1.785V0.822A0.158 0.158 0 0 0 1.802 0.665H0.324a0.158 0.158 0 0 0 -0.158 0.158V1.785a0.175 0.175 0 0 1 -0.002 0.025 0.082 0.082 0 0 1 -0.161 0 0.158 0.158 0 0 0 0.158 0.132"
+                  fill="#00a1e0"
+                />
+              </svg>
+            </div>
+            <p class="text-gray-400 text-[25px]">
+              Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat
+              occaecat ut occaecat consequat est minim minim esse tempor laborum
+              consequat esse adipisicing eu reprehenderit enim.
+            </p>
+          </div>
+          <div
+            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+          >
+            <div class="flex justify-between">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="0 0 0.96 0.96"
+                enable-background="new 0 0 32 32"
+                version="1.1"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g id="Security02" />
+                <g id="Security03" />
+                <g id="Security04" />
+                <g id="Security05" />
+                <g id="Security06" />
+                <g id="Security07" />
+                <g id="Security08" />
+                <g id="Security09" />
+                <g id="Security10" />
+                <g id="Security11" />
+                <g id="Security12" />
+                <g id="Security13" />
+                <g id="Security14" />
+                <g id="Security15" />
+                <g id="Security16" />
+                <g id="Security17" />
+                <g id="Security18" />
+                <g id="Security19" />
+                <g id="Security20">
+                  <g>
+                    <path
+                      d="M0.93 0.24c0 0.007 -0.005 0.69 -0.45 0.69S0.03 0.247 0.03 0.24c0 -0.012 0.007 -0.023 0.018 -0.028l0.42 -0.18c0.007 -0.003 0.016 -0.003 0.023 0l0.42 0.18c0.011 0.005 0.018 0.016 0.018 0.028"
+                      fill="#2197F3"
+                    />
+                  </g>
+                  <g>
+                    <path
+                      d="M0.429 0.66h0a0.03 0.03 0 0 1 -0.024 -0.012L0.276 0.473a0.03 0.03 0 0 1 0.048 -0.036l0.105 0.143 0.207 -0.268a0.03 0.03 0 1 1 0.048 0.037l-0.231 0.3a0.03 0.03 0 0 1 -0.024 0.012"
+                      fill="#FFFFFF"
+                    />
+                  </g>
+                </g>
+                <g id="Security21" />
+              </svg>
+              <h2 class="text-[#1f3e72] text-[35px] font-bold">
+                Prevent unstable prices
+              </h2>
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="-0.14 0 2.24 2.24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.802 0.541A0.158 0.158 0 0 1 1.96 0.7v1.085a0.158 0.158 0 0 1 -0.158 0.158h-1.645A0.158 0.158 0 0 1 0 1.785V0.455a0.158 0.158 0 0 1 0.158 -0.157H0.56c0.134 0 0.148 0.04 0.236 0.156 0.072 0.096 0.249 0.087 0.364 0.087Z"
+                  fill="#003462"
+                />
+                <path
+                  d="M1.802 0.634H0.323a0.158 0.158 0 0 0 -0.158 0.158v0.099L0.322 0.665h1.482L1.96 0.892v-0.1a0.158 0.158 0 0 0 -0.158 -0.158"
+                  fill="#87c8f2"
+                />
+                <path
+                  d="M0.16 1.942h1.642A0.158 0.158 0 0 0 1.96 1.785V0.822A0.158 0.158 0 0 0 1.802 0.665H0.324a0.158 0.158 0 0 0 -0.158 0.158V1.785a0.175 0.175 0 0 1 -0.002 0.025 0.082 0.082 0 0 1 -0.161 0 0.158 0.158 0 0 0 0.158 0.132"
+                  fill="#00a1e0"
+                />
+              </svg>
+            </div>
+            <p class="text-gray-400 text-[25px]">
+              Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat
+              occaecat ut occaecat consequat est minim minim esse tempor laborum
+              consequat esse adipisicing eu reprehenderit enim.
+            </p>
+          </div>
+          <div
+            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+          >
+            <div class="flex justify-between">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="0 0 0.96 0.96"
+                enable-background="new 0 0 32 32"
+                version="1.1"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g id="Security02" />
+                <g id="Security03" />
+                <g id="Security04" />
+                <g id="Security05" />
+                <g id="Security06" />
+                <g id="Security07" />
+                <g id="Security08" />
+                <g id="Security09" />
+                <g id="Security10" />
+                <g id="Security11" />
+                <g id="Security12" />
+                <g id="Security13" />
+                <g id="Security14" />
+                <g id="Security15" />
+                <g id="Security16" />
+                <g id="Security17" />
+                <g id="Security18" />
+                <g id="Security19" />
+                <g id="Security20">
+                  <g>
+                    <path
+                      d="M0.93 0.24c0 0.007 -0.005 0.69 -0.45 0.69S0.03 0.247 0.03 0.24c0 -0.012 0.007 -0.023 0.018 -0.028l0.42 -0.18c0.007 -0.003 0.016 -0.003 0.023 0l0.42 0.18c0.011 0.005 0.018 0.016 0.018 0.028"
+                      fill="#2197F3"
+                    />
+                  </g>
+                  <g>
+                    <path
+                      d="M0.429 0.66h0a0.03 0.03 0 0 1 -0.024 -0.012L0.276 0.473a0.03 0.03 0 0 1 0.048 -0.036l0.105 0.143 0.207 -0.268a0.03 0.03 0 1 1 0.048 0.037l-0.231 0.3a0.03 0.03 0 0 1 -0.024 0.012"
+                      fill="#FFFFFF"
+                    />
+                  </g>
+                </g>
+                <g id="Security21" />
+              </svg>
+              <h2 class="text-[#1f3e72] text-[35px] font-bold">
+                Best price on the market
+              </h2>
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="-0.14 0 2.24 2.24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.802 0.541A0.158 0.158 0 0 1 1.96 0.7v1.085a0.158 0.158 0 0 1 -0.158 0.158h-1.645A0.158 0.158 0 0 1 0 1.785V0.455a0.158 0.158 0 0 1 0.158 -0.157H0.56c0.134 0 0.148 0.04 0.236 0.156 0.072 0.096 0.249 0.087 0.364 0.087Z"
+                  fill="#003462"
+                />
+                <path
+                  d="M1.802 0.634H0.323a0.158 0.158 0 0 0 -0.158 0.158v0.099L0.322 0.665h1.482L1.96 0.892v-0.1a0.158 0.158 0 0 0 -0.158 -0.158"
+                  fill="#87c8f2"
+                />
+                <path
+                  d="M0.16 1.942h1.642A0.158 0.158 0 0 0 1.96 1.785V0.822A0.158 0.158 0 0 0 1.802 0.665H0.324a0.158 0.158 0 0 0 -0.158 0.158V1.785a0.175 0.175 0 0 1 -0.002 0.025 0.082 0.082 0 0 1 -0.161 0 0.158 0.158 0 0 0 0.158 0.132"
+                  fill="#00a1e0"
+                />
+              </svg>
+            </div>
+            <p class="text-gray-400 text-[25px]">
+              Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat
+              occaecat ut occaecat consequat est minim minim esse tempor laborum
+              consequat esse adipisicing eu reprehenderit enim.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="relative p-15 mt-70">
+        <div class="absolute">
+          <span class="text-[#ff922d] text-[40px] font-bold"
+            >Our Contact Us</span
+          >
+          <h2 class="text-[#1f3e72] text-[55px] font-bold">
+            Easy to contact us
+          </h2>
+          <p class="text-gray-500 text-[25px]">
+            We always ready to help by providijng the best services for you.<br />
+            We beleive a good blace to live can make your life better
+          </p>
+          <div class="grid grid-rows-2 grid-cols-2">
+            <div
+              class="flex flex-col gap-4 p-8 border-1 border-gray-300 w-[400px] ml-7 justify-center mt-10 hover:scale-105 transition-all duration-300"
+            >
+              <div class="flex flex-row space-x-8">
+                <svg
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 0.56 0.56"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class="si-glyph si-glyph-call"
+                >
+                  <title>1018</title>
+                  <defs />
+                  <g
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <path
+                      d="M0.491 0.415c-0.015 -0.019 -0.039 -0.046 -0.06 -0.049 -0.013 -0.002 -0.027 0.009 -0.042 0.019 -0.003 0.001 -0.024 0.014 -0.027 0.015 -0.014 0.004 -0.043 0.005 -0.061 -0.011 -0.017 -0.016 -0.044 -0.045 -0.066 -0.072 -0.021 -0.028 -0.043 -0.061 -0.054 -0.081 -0.012 -0.021 -0.003 -0.049 0.004 -0.061 0.001 -0.002 0.017 -0.019 0.021 -0.023l0.001 0.001c0.013 -0.011 0.027 -0.023 0.029 -0.035 0.003 -0.021 -0.018 -0.05 -0.033 -0.069C0.186 0.03 0.163 -0.003 0.132 0.002c-0.012 0.002 -0.022 0.006 -0.032 0.012L0.099 0.013l-0.002 0.001 -0.001 0 0 0c-0.006 0.004 -0.022 0.017 -0.024 0.019 -0.021 0.018 -0.051 0.061 -0.028 0.138 0.018 0.057 0.055 0.125 0.107 0.193l0 0c0.003 0.003 0.005 0.006 0.008 0.009q0.004 0.005 0.007 0.01l0 0c0.055 0.066 0.112 0.118 0.164 0.149 0.07 0.042 0.12 0.023 0.143 0.008 0.002 -0.001 0.019 -0.014 0.024 -0.019l0 0q0 0 0.001 -0.001l0.002 -0.001 0 0c0.008 -0.008 0.015 -0.017 0.02 -0.028 0.012 -0.029 -0.015 -0.059 -0.03 -0.078"
+                      fill="#2196F3"
+                      class="si-glyph-fill"
+                    />
+                  </g>
+                </svg>
+                <span class="text-[#1f3e72] text-[30px] font-bold">call</span>
+              </div>
+              <span class="text-gray-500 text-[25px]">021 123 145 14</span>
+              <button
+                class="w-[280px] h-[70px] rounded-md bg-blue-100 text-blue-700 text-[25px] font-bold items-center hover:bg-blue-700 hover:scale-105 hover:text-white"
+              >
+                Call Now
+              </button>
+            </div>
+            <div
+              class="flex flex-col gap-4 p-8 border-1 border-gray-300 w-[400px] ml-7 justify-center mt-10 hover:scale-105 transition-all duration-300"
+            >
+              <div class="flex flex-row space-x-8">
+                <svg
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 1.12 1.12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      cx="16"
+                      cy="16"
+                      r="16"
+                      fill="#1C98F7"
+                      d="M1.12 0.56A0.56 0.56 0 0 1 0.56 1.12A0.56 0.56 0 0 1 0 0.56A0.56 0.56 0 0 1 1.12 0.56z"
+                    />
+                    <path
+                      fill="#FFF"
+                      d="M0.57 0.816a0.403 0.403 0 0 0 0.073 -0.012 0.2 0.2 0 0 0 0.091 0.006 0.035 0.035 0 0 1 0.004 0c0.011 0 0.025 0.006 0.046 0.02v-0.022a0.021 0.021 0 0 1 0.011 -0.019q0.014 -0.008 0.025 -0.017c0.03 -0.026 0.047 -0.06 0.047 -0.096q0 -0.018 -0.006 -0.035 0.014 -0.026 0.022 -0.054A0.161 0.161 0 0 1 0.91 0.676c0 0.049 -0.023 0.095 -0.062 0.129a0.21 0.21 0 0 1 -0.021 0.015v0.051c0 0.018 -0.02 0.028 -0.035 0.017a0.525 0.525 0 0 0 -0.042 -0.028 0.105 0.105 0 0 0 -0.013 -0.007q-0.018 0.003 -0.036 0.003c-0.049 0 -0.095 -0.015 -0.131 -0.04zm-0.261 -0.102C0.246 0.661 0.21 0.589 0.21 0.512c0 -0.158 0.149 -0.284 0.331 -0.284s0.331 0.126 0.331 0.284c0 0.158 -0.149 0.284 -0.331 0.284q-0.031 0 -0.06 -0.005c-0.009 0.002 -0.043 0.022 -0.092 0.058 -0.018 0.013 -0.043 0 -0.043 -0.022v-0.087a0.315 0.315 0 0 1 -0.037 -0.027m0.173 0.023q0.002 0 0.005 0c0.018 0.003 0.036 0.005 0.055 0.005 0.154 0 0.277 -0.104 0.277 -0.231 0 -0.126 -0.123 -0.231 -0.277 -0.231 -0.154 0 -0.277 0.104 -0.277 0.231 0 0.061 0.029 0.119 0.08 0.162 0.013 0.011 0.027 0.021 0.042 0.029 0.008 0.005 0.014 0.014 0.014 0.023v0.05c0.039 -0.026 0.065 -0.039 0.082 -0.039m-0.082 -0.172c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043m0.141 0c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043m0.141 0c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043"
+                    />
+                  </g>
+                </svg>
+                <span class="text-[#1f3e72] text-[30px] font-bold">chat</span>
+              </div>
+              <span class="text-gray-500 text-[25px]">021 123 145 14</span>
+              <button
+                class="w-[280px] h-[70px] rounded-md bg-blue-100 text-blue-700 text-[25px] font-bold items-center hover:bg-blue-700 hover:scale-105 hover:text-white"
+              >
+                Chat Now
+              </button>
+            </div>
+            <div
+              class="flex flex-col gap-4 p-8 border-1 border-gray-300 w-[400px] ml-7 justify-center mt-10 hover:scale-105 transition-all duration-300"
+            >
+              <div class="flex flex-row space-x-8">
+                <svg
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 1.12 1.12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      cx="16"
+                      cy="16"
+                      r="16"
+                      fill="#1C98F7"
+                      d="M1.12 0.56A0.56 0.56 0 0 1 0.56 1.12A0.56 0.56 0 0 1 0 0.56A0.56 0.56 0 0 1 1.12 0.56z"
+                    />
+                    <path
+                      fill="#FFF"
+                      d="M0.57 0.816a0.403 0.403 0 0 0 0.073 -0.012 0.2 0.2 0 0 0 0.091 0.006 0.035 0.035 0 0 1 0.004 0c0.011 0 0.025 0.006 0.046 0.02v-0.022a0.021 0.021 0 0 1 0.011 -0.019q0.014 -0.008 0.025 -0.017c0.03 -0.026 0.047 -0.06 0.047 -0.096q0 -0.018 -0.006 -0.035 0.014 -0.026 0.022 -0.054A0.161 0.161 0 0 1 0.91 0.676c0 0.049 -0.023 0.095 -0.062 0.129a0.21 0.21 0 0 1 -0.021 0.015v0.051c0 0.018 -0.02 0.028 -0.035 0.017a0.525 0.525 0 0 0 -0.042 -0.028 0.105 0.105 0 0 0 -0.013 -0.007q-0.018 0.003 -0.036 0.003c-0.049 0 -0.095 -0.015 -0.131 -0.04zm-0.261 -0.102C0.246 0.661 0.21 0.589 0.21 0.512c0 -0.158 0.149 -0.284 0.331 -0.284s0.331 0.126 0.331 0.284c0 0.158 -0.149 0.284 -0.331 0.284q-0.031 0 -0.06 -0.005c-0.009 0.002 -0.043 0.022 -0.092 0.058 -0.018 0.013 -0.043 0 -0.043 -0.022v-0.087a0.315 0.315 0 0 1 -0.037 -0.027m0.173 0.023q0.002 0 0.005 0c0.018 0.003 0.036 0.005 0.055 0.005 0.154 0 0.277 -0.104 0.277 -0.231 0 -0.126 -0.123 -0.231 -0.277 -0.231 -0.154 0 -0.277 0.104 -0.277 0.231 0 0.061 0.029 0.119 0.08 0.162 0.013 0.011 0.027 0.021 0.042 0.029 0.008 0.005 0.014 0.014 0.014 0.023v0.05c0.039 -0.026 0.065 -0.039 0.082 -0.039m-0.082 -0.172c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043m0.141 0c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043m0.141 0c-0.024 0 -0.043 -0.019 -0.043 -0.043 0 -0.024 0.019 -0.043 0.043 -0.043s0.043 0.019 0.043 0.043 -0.019 0.043 -0.043 0.043"
+                    />
+                  </g>
+                </svg>
+
+                <span class="text-[#1f3e72] text-[30px] font-bold"
+                  >Video Call</span
+                >
+              </div>
+              <span class="text-gray-500 text-[25px]">021 123 145 14</span>
+              <button
+                class="w-[280px] h-[70px] rounded-md bg-blue-100 text-blue-700 text-[25px] font-bold items-center hover:bg-blue-700 hover:scale-105 hover:text-white"
+              >
+                Video Call Now
+              </button>
+            </div>
+            <div
+              class="flex flex-col gap-4 p-8 border-1 border-gray-300 w-[400px] ml-7 justify-center mt-10 hover:scale-105 transition-all duration-300"
+            >
+              <div class="flex flex-row space-x-8">
+                <svg
+                  fill="#1976d2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 1.82 1.82"
+                  enable-background="new 0 0 52 52"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M0.872 1.054c0.021 0.021 0.053 0.021 0.074 0l0.791 -0.735c0.014 -0.028 0.011 -0.074 -0.046 -0.074l-1.565 0.004c-0.042 0 -0.077 0.039 -0.046 0.074z"
+                    />
+                    <path
+                      d="M1.75 0.606c0 -0.035 -0.042 -0.056 -0.07 -0.032L1.061 1.145c-0.042 0.039 -0.095 0.06 -0.15 0.06s-0.109 -0.021 -0.15 -0.056L0.143 0.574c-0.028 -0.025 -0.07 -0.007 -0.07 0.032C0.07 0.595 0.07 1.4 0.07 1.4c0 0.077 0.063 0.14 0.14 0.14h1.4c0.077 0 0.14 -0.063 0.14 -0.14z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-[#1f3e72] text-[30px] font-bold"
+                  >Message</span
+                >
+              </div>
+              <span class="text-gray-500 text-[25px]">021 123 145 14</span>
+              <button
+                class="w-[280px] h-[70px] rounded-md bg-blue-100 text-blue-700 text-[25px] font-bold items-center hover:bg-blue-700 hover:scale-105 hover:text-white"
+              >
+                Message Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <img
+          class="absolute left-1/2 w-[850px] h-[800px] rounded-t-full"
+          src="./src/img/contact (1).jpg"
+          alt=""
+        />
+      </section>
+      <section
+        class="bg-blue-700 flex flex-col items-center justify-center mt-200 p-25 m-10 gap-6 border-7 border-blue-400 rounded-md"
+      >
+        <h2 class="text-[50px] text-white font-bold">Get started with Homyz</h2>
+        <p class="text-gray-500 text-[30px]">
+          Subscribe and find super attractive price quotes from us. Find your
+          residence soon
+        </p>
+        <button
+          class="w-[170px] h-[55px] text-[25px] text-white cursor-pointer bg-blue-500 border-2 border-white rounded-md hover:scale-110 transition-all duration-300"
+        >
+          Get Started
+        </button>
+      </section>
+    </main>
+    <footer class="p-6 flex justify-between">
+      <div class="flex flex-col gap-4 pl-10">
+        <img class="w-[250px] h-[90px]" src="./src/img/logo2.png" alt="" />
+        <p class="text-[25px] text-gray-500">
+          Our vision is to make all people<br />
+          the best place to live for them.
+        </p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h2 class="text-[#1f3e72] text-[60px] font-bold">Information</h2>
+        <span class="text-[25px] text-gray-500"
+          >145 New York, FL 5467, USA</span
+        >
+        <span class="text-[#1f3e72] text-[25px] font-bold">Property Services Product   About Us</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
