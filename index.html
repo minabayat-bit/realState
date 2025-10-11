@@ -8,8 +8,11 @@
   </head>
   <body class="h-screen">
     <main class="w-full">
-      <header
-        class="flex justify-between items-center p-4 pt-20 bg-black *:text-[#e5e7eb] *:cursor-pointer *:text-[30px] gap-[10px] w-100%"
+      
+      
+      <section class="bg-black relative p-15 flex flex-col gap-8 h-full">
+<header
+        class="flex z-20 top-0 sticky justify-between items-center p-4 bg-black *:text-[#e5e7eb] *:cursor-pointer *:text-[30px] gap-[10px] w-100%"
       >
         <img class="w-[100px] h-[40px]" src="./src/img/logo.png" alt="" />
         <div class="flex space-x-8">
@@ -24,15 +27,16 @@
           </button>
         </div>
       </header>
-      <section class="bg-black relative p-25 flex flex-col gap-8">
-        <h2 class="text-[80px] text-white font-bold">
+
+        <h2 class="text-[80px] text-white font-bold z-10">
           Discover<br />
           Most Suitable<br />
           Property
         </h2>
         <div
-          class="size-14 bg-[#ff922d] rounded-full top-23 left-110 absolute"
+          class="size-14 bg-[#ff922d] rounded-full top-45 left-95 absolute"
         ></div>
+        <div class="size-60 bg-white blur-3xl bg-bgblur z-40 rounded-full top-0  absolute"></div>
         <p class="text-[#e5e7eb] font-thin text-[25px]">
           Find a variety of properties that suit you very<br />
           easilty Forget all difficulties in finding a residence for you
@@ -154,7 +158,7 @@
         </div>
 
         <img
-          class="absolute top-22 left-300 w-[700px] h-[900px] rounded-t-full border-10 border-gray-500"
+          class="absolute top-40 left-300 w-[700px] h-[900px] rounded-t-full border-10 border-gray-500"
           src="./src/img/hero-image.png"
           alt=""
         />
@@ -188,7 +192,7 @@
           </button>
         </div>
       </div>
-      <section class="px-8 ml-12 pt-5 gap-10 flex flex-row w-[500px]">
+      <section id="sliders" class="px-8 ml-12 pt-5 gap-10 flex flex-row w-[500px]">
         <div
           class="flex flex-col gap-6 pt-15 p-10 hover:bg-blue-100 hover:scale-105 transition-all duration-300"
         >
@@ -221,7 +225,7 @@
             We beleive a good blace to live can make your life better
           </p>
           <div
-            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+            class="border-1 open hiddenitem border-gray-300 w-[800px] rounded-md p-6 space-y-10"
           >
             <div class="flex justify-between">
               <svg
@@ -298,7 +302,7 @@
             </p>
           </div>
           <div
-            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+            class="border-1 open hiddenitem border-gray-300 w-[800px] rounded-md p-6 space-y-10"
           >
             <div class="flex justify-between">
               <svg
@@ -375,7 +379,7 @@
             </p>
           </div>
           <div
-            class="border-1 border-gray-300 w-[800px] rounded-md p-6 space-y-10"
+            class="border-1 open hiddenitem border-gray-300 w-[800px] rounded-md p-6 space-y-10"
           >
             <div class="flex justify-between">
               <svg
